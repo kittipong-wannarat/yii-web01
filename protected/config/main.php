@@ -58,10 +58,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yii_tour',
+			'connectionString' => 'mysql:host=localhost;dbname=yii',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '1234',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		
