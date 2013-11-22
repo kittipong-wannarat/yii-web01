@@ -1,13 +1,30 @@
 <?php
 /* @var $this TestAjaxController */
 
-$this->breadcrumbs=array(
-	'Test Ajax',
-);
-?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 
-<p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
-</p>
+?>
+
+<div class="form">
+<?php echo CHtml::beginForm();?>
+<div class ="row">
+<?php echo CHtml::activeTextField($model,'field1');?>
+<?php echo CHtml::activeTextField($model,'field2');?>
+<?php 
+echo CHtml::ajaxSubmitButton(
+		'Save',
+		array('testajax/save','id'=>$model->id),
+		array(
+				'update'=>'#req_result',
+				'beforeSend'=>'function(call,settings) {
+				$("#req_result").html("Saving, Please wait...");}',		
+				)
+		
+		
+		);
+?>
+<div id="req_result"></div>
+
+</div> <!--  row  -->
+
+<?php echo CHtml::endForm(); ?>
+</div><!--  from  -->
