@@ -1,6 +1,5 @@
 <?php
-$user = Yii::app()->session['user'];
-/* @var $this ProfileController */
+/* @var $this CrudController */
 /* @var $model Profile */
 /* @var $form CActiveForm */
 ?>
@@ -22,7 +21,7 @@ $user = Yii::app()->session['user'];
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'firstname'); ?>
-		<?php echo $form->textField($model,'firstname',array('value' => $user)); ?>
+		<?php echo $form->textField($model,'firstname',array('size'=>30,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'firstname'); ?>
 	</div>
 

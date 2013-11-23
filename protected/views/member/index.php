@@ -31,11 +31,6 @@ $this->breadcrumbs=array(
 							'header' => 'Username',
 					),
 					array(
-							'name' => 'password',
-							'header' => 'Password',
-					),
-					
-					array(
 							'name' => 'firstname',
 							'header' => 'Firstname',
 					),

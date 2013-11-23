@@ -1015,3 +1015,269 @@ Stack trace:
 #25 {main}
 REQUEST_URI=/yii-web01/index.php?r=account
 ---
+2013/11/23 06:30:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10.
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php (23)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/23 06:30:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php(47): CBaseController->widget('zii.widgets.gri...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php(23): CController->render('index', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): MemberController->actionIndex()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('member')
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii-web01/member
+---
+2013/11/23 06:33:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10.
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php (47)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php (23)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/23 06:33:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php(47): CBaseController->widget('zii.widgets.gri...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php(23): CController->render('index', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): MemberController->actionIndex()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('member')
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii-web01/member
+---
+2013/11/23 06:35:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10.
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php (42)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php (23)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/23 06:35:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php(42): CBaseController->widget('zii.widgets.gri...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php(23): CController->render('index', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): MemberController->actionIndex()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('member')
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii-web01/member
+---
+2013/11/23 06:38:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10.
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php (42)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php (23)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/23 06:38:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' at line 1. The SQL statement executed was: SELECT account.id,account.username,profile.firstname,profile.lastnameFROM account INNER JOIN profile ON account.id = profile.id ORDER BY account.id ASC LIMIT 10' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CSqlDataProvider.php(108): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(168): CSqlDataProvider->fetchData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/member/index.php(42): CBaseController->widget('zii.widgets.gri...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberController.php(23): CController->render('index', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): MemberController->actionIndex()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('member')
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii-web01/member
+---
+2013/11/23 07:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "memberer".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('memberer')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/memberer
+---
+2013/11/23 07:12:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Memberer".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Memberer')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/Memberer
+---
+2013/11/23 07:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Memberer".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Memberer')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/Memberer
+---
+2013/11/23 07:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Memberer".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Memberer')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/Memberer
+---
+2013/11/23 07:13:07 [error] [php] include(CAtiveDataProvider.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberarController.php(7): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): MemberarController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): MemberarController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): MemberarController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): MemberarController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/memberar
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/MemberarController.php (7)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/23 10:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('UserNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/UserNew/_form.php
+---
+2013/11/23 10:30:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form.php
+---
+2013/11/23 10:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form.php
+---
+2013/11/23 10:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form.php
+---
+2013/11/23 10:32:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form.php
+---
+2013/11/23 10:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form.php".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form.p...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form.php
+---
+2013/11/23 10:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('_form')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('_form')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/_form')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/userNew/_form
+---
+2013/11/23 11:12:40 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "droupdownList".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/userNew/_form.php(58): CComponent->__call('droupdownList', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/userNew/_form.php(58): CActiveForm->droupdownList(Object(UserNew), 'province_id', Array, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/userNew/create.php(18): CController->renderPartial('_form', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/UserNewController.php(79): CController->render('create', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): UserNewController->actionCreate()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('userNew/create')
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-web01/userNew/create
+HTTP_REFERER=http://localhost/yii-web01/site/login
+---

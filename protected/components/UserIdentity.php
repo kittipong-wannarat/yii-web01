@@ -17,17 +17,24 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
+		
+		
+		$username = strtolower($this->username);
+		// $this->username; username คือ ชื่อ Textbox ในฟอร์ม Login
+		
+		$user = UserLogin::model()->find('LOWER(username)=?',array($username));
+		// UserLogin ชื่อ Model ที่เราสร้างไว้
+		
+		if(!isset($user)){ // === NULL
+			$this->errorCode = self::ERROR_USERNAME_INVALID;
+		}else if(!$user->validatePassword($this->password)){ // !== Password
+			$this->errorCode = self::ERROR_PASSWORD_INVALID;
+		}else{
+			$this->username = $user->name;
+			// $user->name; name ชื่อ Field :: name ในตาราง user
+			$this->errorCode = self::ERROR_NONE;
+		}
+		
+		return $this->errorCode == self::ERROR_NONE;
 	}
 }

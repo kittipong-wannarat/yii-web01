@@ -1,26 +1,18 @@
 <?php
 
-class MemberController extends Controller
+class MemberarController extends Controller
 {
 	public function actionIndex()
 	{
-		$sql = "SELECT account.id,account.username,profile.firstname,profile.lastname ";
-		$sql .="FROM account INNER JOIN profile ON account.id = profile.id ";
-		$sql .="ORDER BY account.id ASC";
-		$dataProvider=new CSqlDataProvider($sql,array(
-				'pagination'=>array(
-						'pageSize'=>10,
+		$dataProvider = new CActiveDataProvider('Account', array(
+				'criteria' => array(
+						'with'=>'myprofile',
 				),
-				'sort' =>array(
-						'attributes' => array(
-								'id',
-								'username',
-								'lastname',
-
-						)
-				)
+				'pagination' => array(
+				'pageSize' => 20,
+				),
 		));
-		$this->render('index',array('dataProvider'=> $dataProvider));
+		$this->render('index', array('dataProvider' => $dataProvider));
 	}
 
 	// Uncomment the following methods and override them if needed
