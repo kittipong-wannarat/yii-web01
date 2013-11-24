@@ -1281,3 +1281,148 @@ Stack trace:
 REQUEST_URI=/yii-web01/userNew/create
 HTTP_REFERER=http://localhost/yii-web01/site/login
 ---
+2013/11/24 03:32:00 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.htmlOption" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('htmlOption', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/_form.php(17): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/create.php(18): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/DocumentController.php(82): CController->render('create', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocumentController->actionCreate()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('document/create')
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii-web01/document/create
+HTTP_REFERER=http://localhost/yii-web01/document
+---
+2013/11/24 03:37:00 [error] [php] move_uploaded_file(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected../../files/document/yii-chapter-8.1.sql): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocumentController->actionCreate()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): DocumentController->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/document/create
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/DocumentController.php (75)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/24 03:39:49 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.htmlOption" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('htmlOption', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/_form.php(14): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/create.php(18): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/DocumentController.php(82): CController->render('create', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocumentController->actionCreate()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('document/create')
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii-web01/document/create
+---
+2013/11/24 03:39:57 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.htmlOption" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('htmlOption', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/_form.php(14): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/create.php(18): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/DocumentController.php(82): CController->render('create', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocumentController->actionCreate()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('document/create')
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii-web01/document/create
+HTTP_REFERER=http://localhost/yii-web01/document/
+---
+2013/11/24 03:40:33 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.htmlOption" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('htmlOption', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/_form.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/document/create.php(18): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/DocumentController.php(82): CController->render('create', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocumentController->actionCreate()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('document/create')
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii-web01/document/create
+HTTP_REFERER=http://localhost/yii-web01/document/
+---
