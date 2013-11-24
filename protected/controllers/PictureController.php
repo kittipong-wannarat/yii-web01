@@ -1,6 +1,6 @@
 <?php
 
-class ProfileController extends Controller
+class PictureController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -14,8 +14,8 @@ class ProfileController extends Controller
 	public function filters()
 	{
 		return array(
-				'accessControl', // perform access control for CRUD operations
-				'postOnly + delete', // we only allow deletion via POST request
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
 
@@ -27,21 +27,21 @@ class ProfileController extends Controller
 	public function accessRules()
 	{
 		return array(
-				array('allow',  // allow all users to perform 'index' and 'view' actions
-						'actions'=>array('index','view'),
-						'users'=>array('*'),
-				),
-				array('allow', // allow authenticated user to perform 'create' and 'update' actions
-						'actions'=>array('create','update'),
-						'users'=>array('@'),
-				),
-				array('allow', // allow admin user to perform 'admin' and 'delete' actions
-						'actions'=>array('admin','delete'),
-						'users'=>array('admin'),
-				),
-				array('deny',  // deny all users
-						'users'=>array('*'),
-				),
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update'),
+				'users'=>array('@'),
+			),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('admin','delete'),
+				'users'=>array('admin'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
 		);
 	}
 
@@ -52,7 +52,7 @@ class ProfileController extends Controller
 	public function actionView($id)
 	{
 		$this->render('view',array(
-				'model'=>$this->loadModel($id),
+			'model'=>$this->loadModel($id),
 		));
 	}
 
@@ -62,20 +62,20 @@ class ProfileController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Profile;
+		$model=new Picture;
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Profile']))
+		if(isset($_POST['Picture']))
 		{
-			$model->attributes=$_POST['Profile'];
+			$model->attributes=$_POST['Picture'];
+			$model->picture = CUploadedFile::getInstance($model,'picture');
+			
 			if($model->save())
+				$model->picture->saveAs(Yii::app()->basePath.'../../files/images/'.$model->picture);
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
-				'model'=>$model,
+			'model'=>$model,
 		));
 	}
 
@@ -91,15 +91,15 @@ class ProfileController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Profile']))
+		if(isset($_POST['Picture']))
 		{
-			$model->attributes=$_POST['Profile'];
+			$model->attributes=$_POST['Picture'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(
-				'model'=>$model,
+			'model'=>$model,
 		));
 	}
 
@@ -122,37 +122,9 @@ class ProfileController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$employee = array(
-				'user_id' => '3',
-				'lastname' => 'กิกกอก',
-				'firstname' => 'ทดสอบ',
-				'birthday' => '0000-00-00',
-				'position' => 'เจ้าหน้าที่บริหารงานทั่วไป',
-				'department' => 'กากกกก',
-				'phone' => '089121345',
-				'ext' => '',
-				'email' => 'kittipong.wannarat@gmail.com',
-		);
-		$session = new CHttpSession;
-		$session->open();
-		$session['Employee'] = $employee;
-		$dataProvider=new CActiveDataProvider('Profile', array(
-				'pagination' => array(
-						'pageSize' => 10,
-				),
-				'sort' => array(
-						'attributes' => array(
-								'id',
-								'username',
-								'firstname',
-								'lastname',
-						),
-				),
-
-		));
+		$dataProvider=new CActiveDataProvider('Picture');
 		$this->render('index',array(
-				'dataProvider'=>$dataProvider,
-				'model' => Profile::model()->findByPk(1)
+			'dataProvider'=>$dataProvider,
 		));
 	}
 
@@ -161,13 +133,13 @@ class ProfileController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Profile('search');
+		$model=new Picture('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Profile']))
-			$model->attributes=$_GET['Profile'];
+		if(isset($_GET['Picture']))
+			$model->attributes=$_GET['Picture'];
 
 		$this->render('admin',array(
-				'model'=>$model,
+			'model'=>$model,
 		));
 	}
 
@@ -175,12 +147,12 @@ class ProfileController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Profile the loaded model
+	 * @return Picture the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Profile::model()->findByPk($id);
+		$model=Picture::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -188,11 +160,11 @@ class ProfileController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Profile $model the model to be validated
+	 * @param Picture $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='profile-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='picture-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
