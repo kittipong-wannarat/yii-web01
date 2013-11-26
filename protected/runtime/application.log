@@ -2373,3 +2373,246 @@ Stack trace:
 REQUEST_URI=/yii-web01/site/page
 HTTP_REFERER=http://localhost/yii-web01/site/contact
 ---
+2013/11/26 07:55:28 [error] [php] include(/opt/lampp/htdocs/yii-web01/protected/extensions/CJuiDateTimePicker.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): import()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): DateTimeController->createWidget()
+#3 /opt/lampp/htdocs/yii-web01/protected/views/dateTime/_form.php(83): DateTimeController->widget()
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): DateTimeController->renderInternal()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): DateTimeController->renderFile()
+#7 /opt/lampp/htdocs/yii-web01/protected/views/dateTime/create.php(18): DateTimeController->renderPartial()
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#9 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): DateTimeController->renderInternal()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(869): DateTimeController->renderFile()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(782): DateTimeController->renderPartial()
+#12 /opt/lampp/htdocs/yii-web01/protected/controllers/DateTimeController.php(79): DateTimeController->render()
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): DateTimeController->actionCreate()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): DateTimeController->runAction()
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): DateTimeController->filterAccessControl()
+#19 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#20 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DateTimeController->runActionWithFilters()
+#22 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DateTimeController->run()
+#23 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/dateTime/create
+in /opt/lampp/htdocs/yii-web01/protected/views/dateTime/_form.php (83)
+in /opt/lampp/htdocs/yii-web01/protected/views/dateTime/create.php (18)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/DateTimeController.php (79)
+2013/11/26 07:58:02 [error] [php] include(/opt/lampp/htdocs/yii-web01/protected/extensions/CJuiDateTimePicker/CJuiDateTimePicker.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): import()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): DateTimeController->createWidget()
+#3 /opt/lampp/htdocs/yii-web01/protected/views/dateTime/_form.php(83): DateTimeController->widget()
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): DateTimeController->renderInternal()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): DateTimeController->renderFile()
+#7 /opt/lampp/htdocs/yii-web01/protected/views/dateTime/create.php(18): DateTimeController->renderPartial()
+#8 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#9 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): DateTimeController->renderInternal()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(869): DateTimeController->renderFile()
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(782): DateTimeController->renderPartial()
+#12 /opt/lampp/htdocs/yii-web01/protected/controllers/DateTimeController.php(79): DateTimeController->render()
+#13 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): DateTimeController->actionCreate()
+#14 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(133): DateTimeController->runAction()
+#16 /opt/lampp/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /opt/lampp/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#18 /opt/lampp/htdocs/yii/framework/web/filters/CInlineFilter.php(58): DateTimeController->filterAccessControl()
+#19 /opt/lampp/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#20 /opt/lampp/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DateTimeController->runActionWithFilters()
+#22 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DateTimeController->run()
+#23 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/dateTime/create
+in /opt/lampp/htdocs/yii-web01/protected/views/dateTime/_form.php (83)
+in /opt/lampp/htdocs/yii-web01/protected/views/dateTime/create.php (18)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/DateTimeController.php (79)
+2013/11/26 09:18:03 [error] [php] Undefined variable: detOptions (/opt/lampp/htdocs/yii-web01/protected/views/site/index.php:31)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (31)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:19:12 [error] [php] Undefined variable: deteOptions (/opt/lampp/htdocs/yii-web01/protected/views/site/index.php:31)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (31)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:19:57 [error] [php] include(EGmap3ControlPostion.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/yii-web01/protected/views/site/index.php(41): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#5 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (41)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:20:47 [error] [php] Creating default object from empty value (/opt/lampp/htdocs/yii-web01/protected/views/site/index.php:56)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (56)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:22:21 [error] [php] Creating default object from empty value (/opt/lampp/htdocs/yii-web01/protected/views/site/index.php:56)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (56)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:23:23 [error] [php] Creating default object from empty value (/opt/lampp/htdocs/yii-web01/protected/views/site/index.php:56)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (56)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:28:35 [error] [php] include(/opt/lampp/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /opt/lampp/htdocs/yii-web01/protected/views/site/index.php(38): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#5 /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php(32): SiteController->render()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/site
+in /opt/lampp/htdocs/yii-web01/protected/views/site/index.php (38)
+in /opt/lampp/htdocs/yii-web01/protected/controllers/SiteController.php (32)
+in /opt/lampp/htdocs/yii-web01/index.php (13)
+2013/11/26 09:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/jquery.prettyPhoto.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/site
+---
+2013/11/26 09:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/css/prettyPhoto.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/site
+---
+2013/11/26 09:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/jquery.prettyPhoto.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/site
+---
+2013/11/26 09:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/css/prettyPhoto.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/site
+---
+2013/11/26 09:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/jquery.prettyPhoto.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/site
+---
+2013/11/26 09:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/1364d6ab/jquery.prettyPhoto.js".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/1364d6ab...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/1364d6ab/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/site
+---
