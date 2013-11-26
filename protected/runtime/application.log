@@ -2616,3 +2616,310 @@ Stack trace:
 REQUEST_URI=/yii-web01/assets/1364d6ab/jquery.prettyPhoto.js
 HTTP_REFERER=http://localhost/yii-web01/site
 ---
+2013/11/26 17:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pretty".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('pretty')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('pretty')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/pretty')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/widget/pretty
+---
+2013/11/26 17:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prettyphpto".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('prettyphpto')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphpto')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/widget/prettyphpto
+---
+2013/11/26 17:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:14:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:14:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:17:39 [error] [php] Undefined index: imgHeight (/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php:54)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (54)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
