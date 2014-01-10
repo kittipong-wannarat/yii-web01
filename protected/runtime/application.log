@@ -2923,3 +2923,1265 @@ Stack trace:
 REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
 HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
 ---
+2013/11/26 17:22:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "prettyphpto".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('prettyphpto')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphpto')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-web01/widget/prettyphpto
+---
+2013/11/26 17:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/8809a862/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/8809a862...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/8809a862/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:26:50 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:27:23 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:27:25 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:29:33 [error] [exception.CException] exception 'CException' with message 'WidgetController cannot find the requested view "JQPrettyPhoto5/index".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('JQPrettyPhoto5/...', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): CController->render('JQPrettyPhoto5/...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphoto')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:29:41 [error] [exception.CException] exception 'CException' with message 'WidgetController cannot find the requested view "JQPrettyPhoto5/index".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('JQPrettyPhoto5/...', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): CController->render('JQPrettyPhoto5/...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphoto')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:29:42 [error] [exception.CException] exception 'CException' with message 'WidgetController cannot find the requested view "JQPrettyPhoto5/index".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('JQPrettyPhoto5/...', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): CController->render('JQPrettyPhoto5/...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphoto')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:42:12 [error] [php] Undefined index: imgTheme (/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php:38)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (38)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:50:48 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(11): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (11)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/11/26 17:52:00 [error] [exception.CException] exception 'CException' with message 'jqPrettyPhoto and its behaviors do not have a method or closure named "init".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CComponent->__call('init', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): jqPrettyPhoto->init()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(13): CBaseController->createWidget('widgets.jqPrett...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('JQPrettyPhoto/i...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): CController->render('JQPrettyPhoto/i...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyphoto')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('widget/prettyph...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 17:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 18:05:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 18:05:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 18:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/11/26 18:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/widget/prettyphoto
+---
+2013/12/12 16:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/15b7e46a/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/15b7e46a...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/15b7e46a/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:13:50 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:01 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:01 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:02 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:02 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/widget/prettyphoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:23 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:45 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:45 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:46 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:14:52 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:15:17 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:15:18 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:15:56 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:16:20 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(35): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (35)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 16:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:38:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:38:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/cec230c2/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/cec230c2...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/cec230c2/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 16:58:49 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(38): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (38)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a28c1408/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/a28c1408...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/a28c1408/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a28c1408/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/a28c1408...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/a28c1408/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:04:02 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(38): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (38)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/51348b15/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/51348b15...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/51348b15/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/51348b15/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/51348b15...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/51348b15/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/51348b15/css/prettyPhoto.css".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/51348b15...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/51348b15/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/51348b15/jquery.prettyPhoto.js".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/51348b15...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-web01/assets/51348b15/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:19:19 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:20:59 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:21:01 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:22:09 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:29:41 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:31:10 [error] [exception.CException] exception 'CException' with message 'The asset "/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/prettyPhoto/" to be published does not exist.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/jqPrettyPhoto/jqPrettyPhoto.php(23): CAssetManager->publish('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/jqPrettyPhoto/jqPrettyPhoto.php(30): jqPrettyPhoto::registerScript()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): jqPrettyPhoto::addPretty('.gallery a', 2, 'facebook', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('JQPrettyPhoto/i...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): CController->render('JQPrettyPhoto/i...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('prettyPhoto')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Widget/prettyPh...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+---
+2013/12/12 17:31:38 [error] [php] include(jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2013/12/12 17:31:49 [error] [php] include(/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/extensions/jqPrettyPhoto.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:401)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php(9): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): WidgetController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): WidgetController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): WidgetController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php(10): WidgetController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): WidgetController->actionPrettyPhoto()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): WidgetController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): WidgetController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): WidgetController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/Widget/prettyPhoto
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/views/widget/JQPrettyPhoto/index.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/WidgetController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2014/01/06 02:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii-web01/site/page
+HTTP_REFERER=http://localhost/yii-web01/site/contact
+---
+2014/01/06 02:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii-web01/site/page
+HTTP_REFERER=http://localhost/yii-web01/site/index
+---
+2014/01/09 16:33:34 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "SrtLanguage".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php(9): CComponent->__call('SrtLanguage', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php(9): CWebApplication->SrtLanguage('en')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): LangController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('lang/index')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-web01/lang/index
+HTTP_REFERER=http://localhost/yii-web01/lang/index
+---
+2014/01/09 16:48:52 [error] [php] Undefined index: lang (/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php:15)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): LangController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): LangController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): LangController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/lang/Setlanguage
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php (15)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
+2014/01/09 16:49:04 [error] [php] Undefined index: lang (/Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php:15)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): LangController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): LangController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): LangController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-web01/lang/setlanguage
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/protected/controllers/LangController.php (15)
+in /Applications/XAMPP/xamppfiles/htdocs/yii-web01/index.php (13)
